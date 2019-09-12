@@ -4,9 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="article title, keywords">
-    <meta name="description" content="hello test
-">
+    <meta name="keywords" content="ospf[Open Shortest Path First], keywords">
+    <meta name="description" content="前言OSPF是链路状态协议，和距离矢量路由协议不同，链路状态路由协议在区域内传递LSA[Link State Advertisemnet]。OSPF有3个版本，V1是实验版本从来没有商用过、V2为IPv4版本以及关于IPv6的V3版本。其中">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>article title | Hexo</title>
+    <title>ospf[Open Shortest Path First] | Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -262,13 +261,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        article title
+                        ospf[Open Shortest Path First]
                     </div>
                 </div>
             </div>
@@ -377,12 +376,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/network/" target="_blank">
+                                <span class="chip bg-color">network</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Network/" class="post-category" target="_blank">
+                                Network
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -390,7 +402,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-09-11
+                    2019-09-12
                 </div>
 
                 
@@ -406,7 +418,9 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>hello test</p>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>OSPF是链路状态协议，和距离矢量路由协议不同，链路状态路由协议在区域内传递LSA[Link State Advertisemnet]。OSPF有3个版本，V1是实验版本从来没有商用过、V2为IPv4版本以及关于IPv6的V3版本。<br>其中，在RFC2328中，删除了ToS路由选择功能（Qos相关特性）。</p>
+<h2 id="OPSF的优势"><a href="#OPSF的优势" class="headerlink" title="OPSF的优势"></a>OPSF的优势</h2><p>OSPF是目前运用得最为广泛得协议之一，它有如下好处：<br>-使用区域概念，有效减少路由选择协议对路由器CPU和内存的占用；构建层次化的网络结构，收敛速度快，便于管理。<br>-无类别路由协议，排除了不连续子网的有类别路由协议问题。<br>-支持使用多条路径的效率更高的等价多路径。<br>-支持链路的安全认证。<br>-支持最新的SRTE（通过透明的LSA）。</p>
+<h2 id="OSPF包类型"><a href="#OSPF包类型" class="headerlink" title="OSPF包类型"></a>OSPF包类型</h2><p>-HELLO<br>-LSR<br>-DBD<br>-LSU<br>-LSACK</p>
 
             </div>
             <hr/>
@@ -565,9 +579,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《article title》
+                    《ospf[Open Shortest Path First]》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/11/article-title/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/09/12/ospf/" property="cc:attributionName"
                rel="cc:attributionURL">
                 Tyler Young
             </a> 采用
@@ -607,9 +621,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2019/09/12/ospf/">
                     <div class="card-image">
@@ -627,9 +642,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-09-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -642,6 +657,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -660,19 +676,20 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/09/11/test/">
+                <a href="/2019/09/11/article-title/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Test">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="article title">
                         
-                        <span class="card-title">Test</span>
+                        <span class="card-title">article title</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            hello test
+
                         
                     </div>
                     <div class="publish-info">
